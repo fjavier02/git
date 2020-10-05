@@ -1,0 +1,69 @@
+    1  git version
+    2  ls
+    3  mkdir toti
+    4  ls
+    5  cd toti
+    6  ls
+    7  cd toti
+    8  init
+    9  https://github.com/Lukff/revisao-html.git
+   10  ls
+   11  ls
+   12  clear
+   13  git version
+   14  git clone https://github.com/Lukff/revisao-html
+   15  ls
+   16  code revisao-html/
+   17  clear
+   18  ls
+   19  cd
+   20  ls
+   21  cd toti
+   22  ls
+   23  code revisao-html/
+   24  cd ..
+   25  cd Documents/toti
+   26  git clone https://github.com/Lukff/revisao-html
+   27  git config --global user.name 'fjavier02'
+   28  git config --global user.email 'franciscolopez1995@gmail.com'
+   29  git config user.name
+   30  ls
+   31  cd toti
+   32  ls
+   33  cd..
+   34  cd ..
+   35  ls
+   36  cd Documents/
+   37  ls
+   38  cd Toti/
+   39  ls
+   40  mkdir git
+   41  ls
+   42  cd git/
+   43  ls
+   44  git config user.name
+   45  git init
+   46  git status 
+   47  echo '#Aprendendo usar o Git' > readme.md
+   48  git status 
+   49  git add readme.md 
+   50  git status 
+   51  git commit -m 'Commit inicial'
+   52  git status 
+   53  echo '##Aula 1' >> readme.md 
+   54  git status 
+   55  echo 'fjavier02' > participantes.txt
+   56  git status 
+   57  git add .
+   58  git status 
+   59  git restore --staged participantes.txt
+   60  git add .
+   61  git status 
+   62  git restore --staged .
+   63  git status 
+   64  git commit -am 'Alteração no readme'
+   65  git status 
+   66  git add participantes.txt 
+   67  git status 
+   68  git commit -m 'Adicionado Participante.txt'
+   69  history > Aula_3.txt
